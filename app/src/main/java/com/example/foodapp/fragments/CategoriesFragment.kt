@@ -23,6 +23,10 @@ class CategoriesFragment : Fragment() {
         return view
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
+
 
 
     override fun onDestroyView() {
