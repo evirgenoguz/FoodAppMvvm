@@ -15,14 +15,17 @@ I use [TheMealDb](https://www.themealdb.com/) api for this app
 
 
  ### This is my app's Home Page. You can reach other activities and fragments from there. Also if you long click to popular items one the bottom sheet fragment will appear.
-![MainPage](https://user-images.githubusercontent.com/59138609/210102499-9e533fed-0fef-4f93-98cf-8f92d2247866.jpg)
+ ![MainPage](https://user-images.githubusercontent.com/59138609/210103967-dd59b44e-8ad9-4c1c-ac16-26b87c56ad40.jpg)
+
 ### This is my app's Meal Activity you can get informations about the food you clicked.
+![MealDetail](https://user-images.githubusercontent.com/59138609/210103981-3ff611d2-f68d-4def-9bd2-3a28bff4c93c.jpg)
 
-![MealDetail](https://user-images.githubusercontent.com/59138609/210102527-23a284fe-f0d8-43f7-aef9-9d31e3f6b598.jpg)
 ### This image about bottom sheet fragment if you long click the popular item's one it will appear from the bottom.
-![MealBottomSheet](https://user-images.githubusercontent.com/59138609/210102533-3ffca6b0-f2e9-4639-8a61-a6968682bb08.jpg)
-### In this fragment you can see your favorites meals we store this meals in phone storage with Room
+![MealBottomSheet](https://user-images.githubusercontent.com/59138609/210104013-a89b41cc-7d32-439a-9913-6814a9c74667.jpg)
 
-![FavoritesFragment](https://user-images.githubusercontent.com/59138609/210102539-518e4b3c-2036-4b5a-8597-e75ca9189969.jpg)
+### In this fragment you can see your favorites meals we store this meals in phone storage with Room
+![FavoritesFragment](https://user-images.githubusercontent.com/59138609/210104025-af2d37d7-b8d5-4600-95c6-5ed47e25eb28.jpg)
+
 ### In this fragment you can search specific meal also this search is working while user entering the letters with 500 ms delay
-![SearchFragment](https://user-images.githubusercontent.com/59138609/210102540-6326fd36-60de-4ab0-8ba5-0ba333b17246.jpg)
+![SearchFragment](https://user-images.githubusercontent.com/59138609/210104031-34e394d9-6ccb-4a44-a3cf-aca8cddff3a2.jpg)
+
