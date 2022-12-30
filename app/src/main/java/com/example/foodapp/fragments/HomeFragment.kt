@@ -9,10 +9,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView.LayoutManager
 import com.bumptech.glide.Glide
+import com.example.foodapp.R
 import com.example.foodapp.activities.CategoryMealsActivity
 import com.example.foodapp.activities.MainActivity
 import com.example.foodapp.activities.MealActivity
@@ -86,12 +88,19 @@ class HomeFragment : Fragment() {
 
         onPopularItemLongClick()
 
-    }
+        onSearchIconClick()
 
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    private fun onSearchIconClick() {
+        binding.imgSearch.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_searchFragment)
+        }
     }
 
     private fun onPopularItemLongClick() {

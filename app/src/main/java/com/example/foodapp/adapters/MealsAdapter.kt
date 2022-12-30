@@ -9,8 +9,8 @@ import com.bumptech.glide.Glide
 import com.example.foodapp.databinding.MealItemCardBinding
 import com.example.foodapp.pojo.Meal
 
-class FavoritesMealsAdapter:
-    RecyclerView.Adapter<FavoritesMealsAdapter.FavoritesMealsAdapterViewHolder>() {
+class MealsAdapter:
+    RecyclerView.Adapter<MealsAdapter.FavoritesMealsAdapterViewHolder>() {
 
     private val diffUtil = object: DiffUtil.ItemCallback<Meal>(){
         override fun areItemsTheSame(oldItem: Meal, newItem: Meal): Boolean {
